@@ -3,7 +3,7 @@
 Summary:        Fast Scanner Generator
 Name:           jflex
 Version:        1.4.3
-Release:        19%{?dist}
+Release:        20%{?dist}
 Epoch:          0
 License:        GPL+
 URL:            http://jflex.de/
@@ -121,6 +121,9 @@ install -p -m 644 lib/jflex-mode.elc %{buildroot}%{_emacs_sitelispdir}/%{name}
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.4.3-20
+- Mass rebuild 2013-12-27
+
 * Thu Oct 24 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:1.4.3-19
 - Remove desktop files
 
